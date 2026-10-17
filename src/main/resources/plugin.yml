@@ -1,0 +1,13 @@
+name: GrimKickDrop
+main: me.grimdrop.GrimKickDrop
+version: 1.0.0
+api-version: '1.20'
+description: Высыпает инвентарь игрока, которого кикнули за пакеты во время боя
+commands:
+  grimkickdrop:
+    description: Перезагрузка конфига
+    usage: /grimkickdrop reload
+    permission: grimkickdrop.admin
+permissions:
+  grimkickdrop.admin:
+    default: op
